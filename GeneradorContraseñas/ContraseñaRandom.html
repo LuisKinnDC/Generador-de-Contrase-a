@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <h1>GENERAR CONTRASEÑA</h1>
+            <div class="password-container">
+                <input type="text" class="form-control" id="password" placeholder="Generar Contraseña" readonly>
+                <div class="button-container btn">
+                    <button class="btn primary" onclick="generatePassword()">Generar</button>
+                    <button class="btn primary" onclick="copyToClipboard()">Copiar</button>
+                </div>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
